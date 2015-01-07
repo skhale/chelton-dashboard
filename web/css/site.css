@@ -1,0 +1,108 @@
+body {
+	background: url('../images/background_light.png') bottom left repeat-x;
+	background-attachment: fixed;
+}
+
+.logo {
+	padding: 10px;
+}
+
+.input-group-btn .btn-lg {
+	height: 46px;
+}
+
+.patient-tabs {
+	padding-left: 150px;
+	margin-top: -30px;
+}
+
+.patient-tabs > li > a {
+	padding: 5px 5px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-overflow: ellipsis;
+}
+
+.patient-tabs .glyphicon-remove {
+	cursor: pointer;
+}
+
+.patient-header {
+	padding: 5px 15px;
+	font-size: 0.9em;
+	/*margin-bottom: 5px;*/
+}
+
+.patient-header .patient-name {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.patient-nav .nav > li > a {
+	font-size: 0.8em;
+	padding: 5px 0;
+	margin: 0 5px;
+}
+
+.content-top-bar {
+	margin: 10px 0;
+}
+
+.patient-nav .nav-title {
+	font-size: 0.8em;
+	font-weight: bold;
+	padding: 5px;
+}
+
+.patient-panes > .tab-pane > .container-fluid {
+	padding: 0;
+}
+
+.patient-content {
+	padding-right: 15px;
+}
+
+.patient-content .panel {
+	font-size: 0.8em;
+}
+
+.patient-content .panel .panel-title {
+	font-size: 1.2em;
+	font-weight: bold;
+	min-height: 20px;
+}
+
+/*.fa-chevron-circle-down*/
+.patient-content .panel-title .pull-right {
+	font-size: 1.5em;
+}
+
+.patient-content .panel .badge {
+	font-size: 1em;
+	margin-left: 5px;
+}
+
+.panel-subheading {
+	padding: 3px 15px;
+}
+
+.patient-content .table > thead > tr > th {
+	border-bottom: none;
+}
+
+.fa-exclamation-triangle {
+	color: #FECD07;
+}
+
+.patient-content .panel .panel-body {
+	max-height: 300px;
+	overflow: auto;
+}
+
+.emergency-contacts {
+	margin-top: 5px;
+}
+
+.member-information .table .fa {
+	margin-right: 3px;
+}

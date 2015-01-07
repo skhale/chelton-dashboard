@@ -1,0 +1,136 @@
+body.darkTheme {
+	background-color: #35393C;
+	color: #FFF;
+}
+
+.darkTheme a {
+	color: #CCC;
+}
+
+.darkTheme .jumbotron {
+	background-color: #616161;
+	color: #CCC;
+}
+
+.darkTheme .btn.btn-primary {
+	background: #515151;
+	border: 1px solid #717171;
+}
+
+.darkTheme .patient-tabs {
+	border: none;
+	border-bottom: 1px solid #4f5254;
+}
+
+.darkTheme .patient-tabs > li > a {
+	border: none;
+	border-radius: 0;
+}
+
+.darkTheme .patient-tabs > li > a:hover {
+	color: #616161;
+}
+
+.darkTheme .patient-tabs > li.active > a {
+	/*background-color: #B21970;*/
+	background-color: #4f5254;
+	color: #FFF;
+}
+
+.darkTheme .patient-tabs > li.active > a:hover {
+	border: none;
+}
+
+.darkTheme .patient-header {
+	color: #FFF;
+	background-image: -webkit-linear-gradient(top, #4f5254, #313131);
+	background-image: -moz-linear-gradient(top, #4f5254, #313131);
+	background-image: linear-gradient(top, #4f5254, #313131);
+}
+
+.darkTheme .patient-nav .nav-title {
+	outline: 1px solid #111;
+	border-top: 1px solid #555;
+	background: #333;
+	margin-top: 1px;
+}
+
+.darkTheme .patient-nav .nav > li > a {
+	border-bottom: 1px solid #666;
+}
+
+.darkTheme .patient-nav .nav > li.active > a {
+	color: #FF9036;
+}
+
+.darkTheme .patient-nav .nav > li > a:hover {
+	color: #FF9036;
+	background-color: transparent;
+}
+
+.darkTheme .panel {
+	border: none;
+}
+
+.darkTheme .panel-heading {
+	background-color: #B21970;
+	color: #FFF;
+	border-bottom: none;
+}
+
+.darkTheme .panel-subheading {
+	background-color: #515151;
+	color: #FFF;
+}
+
+.darkTheme .panel-body {
+	background-color: #616161;
+	color: #CCC;
+}
+
+.darkTheme .panel .badge {
+	background-color: #616161;
+	color: #FFF;
+}
+
+.darkTheme .panel .table .badge {
+	background-color: #515151;
+}
+
+.darkTheme .btn {
+	background-color: #B21970;
+}
+
+.darkTheme .list-group-item {
+	color: #616161;
+}
+
+.darkTheme #patient-search-results h1 {
+	/*color: #B21970;*/
+}
+
+a.list-group-item.active,
+a.list-group-item.active:hover,
+a.list-group-item.active:focus {
+	background-color: #B21970;
+	border-color: #B21970;
+}
+
+.patient-content .panel-body a {
+	color: #FF9036;
+}
+
+.modal,
+.modal-title,
+.modal-body,
+.modal-footer {
+	color: #333;
+}
+
+.modal .btn {
+	color: #FFF;
+}
+
+.list-group-item-text {
+	color: #000;
+}

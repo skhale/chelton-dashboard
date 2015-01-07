@@ -1,0 +1,245 @@
+body.lightTheme {
+	background-color: #FBFBFB;
+	color: #35393C;
+}
+
+.lightTheme .logo {
+background: #ffffff;
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJod…EiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top, #ffffff 0%, #f4fcf8 61%, #f0f0f0 90%, #f1e3ea 93%, #f6c7e0 97%, #fea0d3 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(61%,#f4fcf8), color-stop(90%,#f0f0f0), color-stop(93%,#f1e3ea), color-stop(97%,#f6c7e0), color-stop(100%,#fea0d3));
+background: -webkit-linear-gradient(top, #ffffff 0%,#f4fcf8 61%,#f0f0f0 90%,#f1e3ea 93%,#f6c7e0 97%,#fea0d3 100%);
+background: -o-linear-gradient(top, #ffffff 0%,#f4fcf8 61%,#f0f0f0 90%,#f1e3ea 93%,#f6c7e0 97%,#fea0d3 100%);
+background: -ms-linear-gradient(top, #ffffff 0%,#f4fcf8 61%,#f0f0f0 90%,#f1e3ea 93%,#f6c7e0 97%,#fea0d3 100%);
+background: linear-gradient(to bottom, #ffffff 0%,#f4fcf8 61%,#f0f0f0 90%,#f1e3ea 93%,#f6c7e0 97%,#fea0d3 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fea0d3',GradientType=0 );
+}
+
+
+.lightTheme a {
+	color: #FF7900;
+}
+
+
+
+.lightTheme .jumbotron {
+
+	background-color: #616161;
+
+	color: #CCC;
+
+}
+
+
+
+.lightTheme .btn.btn-primary {
+
+	background: #515151;
+
+	border: 1px solid #717171;
+
+}
+
+
+
+.lightTheme .patient-tabs {
+	border: none;
+	border-bottom: 1px solid #E9E9E9;
+}
+
+
+
+.lightTheme .patient-tabs > li > a {
+	border: none;
+	border-radius: 0;
+}
+
+
+
+.lightTheme .patient-tabs > li > a:hover {
+	color: #FF7900;
+}
+
+
+
+.lightTheme .patient-tabs > li.active > a {
+	background-color: #E9E9E9;
+	color: #3D3D3D;
+}
+
+
+
+.lightTheme .patient-tabs > li.active > a:hover {
+
+	border: none;
+
+}
+
+
+
+.lightTheme .patient-header {
+	color: #3D3D3D;
+background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.05) 100%) !important;
+background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.05) 100%) !important;
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#0d000000',GradientType=0 ) !important;
+}
+
+
+
+.lightTheme .patient-nav .nav-title {
+	outline: 1px solid #C7C7C7;
+	border-top: 1px solid #FBFBFB;
+	background: #E9E9E9;
+	margin-top: 1px;
+}
+
+
+
+.lightTheme .patient-nav .nav > li > a {
+
+	border-bottom: 1px solid #666;
+color: #3D3D3D;
+
+}
+
+
+
+.lightTheme .patient-nav .nav > li.active > a {
+	color: #FF7900;
+}
+
+
+
+.lightTheme .patient-nav .nav > li > a:hover {
+
+	color: #FF7900;
+
+	background-color: transparent;
+
+}
+
+
+
+.lightTheme .panel {
+
+	border: none;
+
+}
+
+
+
+.lightTheme .panel-heading {
+	border: 1px solid #A5A5A5;
+	color: #000;
+	border-radius: 0;
+	background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.02) 100%) !important;
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.02) 100%) !important;
+}
+
+
+
+.lightTheme .panel-subheading {
+	background-color: #3D3D3D;
+	color: #FFF;
+}
+
+
+
+.lightTheme .panel-body {
+	background-color: #FBFBFB;
+	color: #3D3D3D;
+	border: 1px solid #A5A5A5;
+	border-top: none;
+
+}
+
+
+
+.lightTheme .panel .badge {
+	background-color: #FF7900;
+	color: #FFF;
+}
+
+
+
+.lightTheme .panel .table .badge {
+	background-color: #FF7900;
+}
+
+
+
+.lightTheme .btn {
+	background-color: #FF7900;
+	color: #FFF;
+}
+
+
+
+.lightTheme .list-group-item {
+
+	color: #3D3D3D;
+
+}
+
+
+
+.lightTheme #patient-search-results h1 {
+
+	/*color: #B80068;*/
+
+}
+
+
+
+.lightTheme a.list-group-item.active,
+
+.lightTheme a.list-group-item.active:hover,
+
+.lightTheme a.list-group-item.active:focus {
+
+	border-radius: 0;
+	background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.02) 100%) !important;
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.02) 100%) !important;
+	border: 1px solid #A5A5A5;
+	color: #000;
+	font-weight: bold;
+
+
+
+.lightTheme .patient-content .panel-body a {
+	color: #FF7900;
+}
+
+
+
+.modal,
+
+.modal-title,
+
+.modal-body,
+
+.modal-footer {
+
+	color: #333;
+
+}
+
+
+
+.modal .btn {
+
+	color: #FFF;
+
+}
+
+
+
+.list-group-item-text {
+
+	color: #000;
+
+}
+
+.lightTheme .panel-heading a .fa {
+	color: #FFF;
+}

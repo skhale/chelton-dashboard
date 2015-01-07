@@ -16,6 +16,7 @@ class SiteController extends Controller
     }
 
     public function actionIndex() {
-        return $this->render('index');
+        $totalPatients = \app\models\Patient\DeactivatedPatient::find()->count();
+        return $this->render('index', ['patients' => [], 'total' => $totalPatients]);
     }
 }
