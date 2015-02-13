@@ -23,12 +23,14 @@ return [
                 '<controller:\w+>/<id:\d+>' => '<controller>/view',
                 '<controller:\w+>/<action:\w+>' => '<controller>/<action>',
                 '<controller:\w+>/<action:\w+>/<id:\d+>' => '<controller>/<action>',
+                '<module:\w+>/<controller:\w+>/<action:\w+>/<id:\d+>' => '<module>/<controller>/<action>',
+                '<module:\w+>/<submodule:\w+>/<controller:\w+>/<action:\w+>/<id:\d+>' => '<module>/<submodule>/<controller>/<action>'
             ]
         ],
         'view' => [
             'theme' => [
-                'pathMap' => ['@app/views' => '@app/themes/basic'],
-                'baseUrl' => '@web/themes/basic'
+                'baseUrl' => '@web/themes/basic',
+                'pathMap' => ['@app/views' => '@webroot/themes/basic/views']
             ]
         ],
         'errorHandler' => [
@@ -46,6 +48,9 @@ return [
         'db' => $db,
     ],
     'modules' => [
+        'api' => [
+            'class' => 'app\modules\api\ApiModule'
+        ]
     ],
     'params' => $params,
 ];
