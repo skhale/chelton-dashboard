@@ -6,7 +6,8 @@ use yii\web\Controller;
 
 class SiteController extends Controller
 {
-    public function actions() {
+    public function actions() 
+    {
         return [
             'error' => [
                 'class' => 'yii\web\ErrorAction',
@@ -15,7 +16,8 @@ class SiteController extends Controller
         ];
     }
 
-    public function actionIndex() {
+    public function actionIndex() 
+    {
         $totalPatients = \app\models\Patient\DeactivatedPatient::find()->count();
         return $this->render('index', ['patients' => [], 'total' => $totalPatients]);
     }
